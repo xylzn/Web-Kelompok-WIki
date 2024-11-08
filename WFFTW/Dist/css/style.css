@@ -1,0 +1,33 @@
+html,
+body {
+  scroll-behavior: smooth;
+  font-family: "Poppins";
+}
+.navbar-fixed {
+  position: fixed !important;
+  z-index: 1;
+  opacity: 100%;
+  backdrop-filter: blur(7px);
+  box-shadow: inset 0 -1px 0 0 rgb(0, 0, 0, 0.2);
+}
+.content-auto {
+  content-visibility: auto;
+}
+
+.top-410 {
+  top: 410px;
+}
+.wid {
+  width: 9vw;
+}
+.widt {
+  width: 5vw;
+}
+
+.bgimage{
+    background-image:url('/Dist/Assets/img/Body/Bill.png') ;
+
+}
+.h-600{
+    height: 7;
+}
